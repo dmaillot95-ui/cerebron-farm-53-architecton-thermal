@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "engines": [
+    {
+      "engine_id": "PY-THERMAL-MVP",
+      "name": "Python deterministic thermal sanity engine",
+      "category": "thermal-calculation",
+      "version": "stdlib",
+      "capabilities": [
+        "Fourier conduction",
+        "thermal resistance",
+        "energy balance"
+      ],
+      "limitations": [
+        "closed-form only",
+        "not FEA",
+        "not physical test"
+      ],
+      "validation_status": "MVP",
+      "benchmark_status": "PENDING"
+    },
+    {
+      "engine_id": "CODE_ASTER_THERMAL",
+      "name": "Code_Aster thermal",
+      "category": "thermal-FEA",
+      "version": "UNKNOWN",
+      "capabilities": [
+        "thermal analysis"
+      ],
+      "limitations": [
+        "availability not verified"
+      ],
+      "validation_status": "UNKNOWN",
+      "benchmark_status": "PENDING"
+    }
+  ]
+}

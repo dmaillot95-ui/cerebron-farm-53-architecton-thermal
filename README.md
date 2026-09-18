@@ -7,3 +7,5 @@ Scope: heat transfer, conduction, convection, thermal resistance networks, tempe
 Rules: REALITY > COHERENCE; EVIDENCE > CONFIDENCE; CLAIM <= EVIDENCE; SIMULATION != TEST; CONVERGENCE != PHYSICAL VALIDATION.
 
 Initial MVP uses a deterministic closed-form conduction benchmark. Specialized thermal solvers remain candidates until detected and benchmarked.
+
+Validation trigger: 2026-09-18 batch verification.

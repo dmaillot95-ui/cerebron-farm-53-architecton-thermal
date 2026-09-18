@@ -1,0 +1,16 @@
+{
+  "farm_id": 53,
+  "name": "ARCHITECTON THERMAL Ω",
+  "domain": "thermal-engineering",
+  "status": "SCAFFOLDED",
+  "evidence_rules": [
+    "CLAIM <= EVIDENCE",
+    "SIMULATION != TEST",
+    "CONVERGENCE != PHYSICAL VALIDATION"
+  ],
+  "required_outputs": [
+    "artifact",
+    "validation",
+    "provenance"
+  ]
+}
